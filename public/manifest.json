@@ -1,0 +1,30 @@
+{
+  "short_name": "Codingal App",
+  "name": "Codingal App",
+  "icons": [
+    {
+      "src": "favicon-32x32.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "favicon-90x90.png",
+      "sizes": "64x64 32x32 24x24 16x16 90x90",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo.jpg",
+      "sizes": "167x180",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo.jpg",
+      "type": "image/jpg",
+      "sizes": "167x180"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
