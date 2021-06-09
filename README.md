@@ -14,5 +14,5 @@ It has the following features:
 
 To Run after clonning
 
-1. `'$ npm install`
-2. `'$ npm start`
+1. `$ npm install`
+2. `$ npm start`
