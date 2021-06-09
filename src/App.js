@@ -7,7 +7,25 @@ import Error from './pages/Error'
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 function App() {
-  return <></>
+  return (
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route exact path='/'>
+            <Home />
+            <Modal />
+          </Route>
+          <Route path='/posts'>
+            <Posts />
+          </Route>
+          <Route path='*'>
+            <Error />
+          </Route>
+        </Switch>
+      </Router>
+    </>
+  )
 }
 
 export default App
