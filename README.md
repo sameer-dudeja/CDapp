@@ -13,5 +13,5 @@ It has the following features:
 ---
 
 To Run after clonning
-$ npm install
-$ npm start
+('$ npm install')
+('$ npm start')
